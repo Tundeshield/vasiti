@@ -1,0 +1,53 @@
+.headerBanner {
+	display: flex;
+	max-width: 100vw;
+	height: 70vh;
+	padding-top: 20px;
+
+	.headerBanner__right {
+		max-width: 50%;
+		margin-left: 0px;
+		position: absolute;
+		left: 650px;
+	}
+	.headerBanner__image {
+		position: absolute;
+		right: 30px;
+		bottom: 20px;
+		top: 10px;
+		left: 150px;
+	}
+	.headerBanner__elipse {
+		vertical-align: middle;
+		text-align: center;
+		left: 10%;
+		position: relative;
+		margin-top: 40px;
+	}
+	.eclipse__bg {
+		background-color: #fff8f5;
+		clip-path: circle();
+	}
+	.headerBanner__left {
+		display: flex;
+		flex-direction: column;
+		max-width: 50%;
+		padding-left: 185px;
+		padding-top: 100px;
+		margin-right: 0px;
+
+		h1 {
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 60px;
+			font-family: "Inter", sans-serif;
+		}
+		p {
+			font-family: "Inter", sans-serif;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 31px;
+			color: #494949;
+		}
+	}
+}

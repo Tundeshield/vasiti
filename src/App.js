@@ -1,9 +1,13 @@
 import './App.css';
+import TestimonialPage from "./TestimonialPage";
 
 function App() {
   return (
     <div className="app">
-    <h1>Hello Vasiti</h1>
+   
+    {/* Testimonial page*/}
+    <TestimonialPage />
+    {/* Share your story*/}
     </div>
   );
 }

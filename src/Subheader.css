@@ -1,0 +1,25 @@
+.subheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.subheader li {
+  list-style: none;
+  margin-right: 60px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+/*# sourceMappingURL=Subheader.css.map */

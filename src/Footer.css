@@ -1,0 +1,101 @@
+.footer {
+  background-color: #25201d;
+  height: 100vh;
+}
+
+.footer .footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+.footer .footer__top .footer__top__left {
+  position: relative;
+}
+
+.footer .footer__top .footer__top__left img {
+  position: absolute;
+  top: -40px;
+}
+
+.footer .footer__top .footer__top__right h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-top: 70px;
+  padding-right: 60px;
+}
+
+.footer .footer__top .footer__top__right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+
+.footer .footer__top .footer__top__right .footer__top__right__search {
+  width: 70%;
+  padding: 6px;
+  background: #514d4a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 7px;
+}
+
+.footer .footer__top .footer__top__right .footer__top__right__search input {
+  background-color: #514d4a;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.footer .footer__top .footer__top__right .footer__top__right__search input::-webkit-input-placeholder {
+  color: white;
+}
+
+.footer .footer__top .footer__top__right .footer__top__right__search input:-ms-input-placeholder {
+  color: white;
+}
+
+.footer .footer__top .footer__top__right .footer__top__right__search input::-ms-input-placeholder {
+  color: white;
+}
+
+.footer .footer__top .footer__top__right .footer__top__right__search input::placeholder {
+  color: white;
+}
+
+.footer .footer__top .footer__top__right .footer__top__right__search button {
+  background: white;
+  color: black;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,17 +1,15 @@
 .customerTestimonials {
-	height: 100vh;
-	background-color: white;
-	border: none;
 	
+	background-color: white;
 	align-items: center;
 	justify-content: center;
-	padding: 65px 65px 30px 130px;
-	
-	.customerTestimonial__row1{
+	padding: 65px 65px 120px 130px;
+
+	.customerTestimonial__row1 {
 		column-count: 3;
 		column-gap: 5em;
 	}
-	.customerTestimonial__row2{
+	.customerTestimonial__row2 {
 		margin-top: 30px;
 		column-count: 3;
 		column-gap: 5em;

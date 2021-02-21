@@ -1,0 +1,78 @@
+.vendorBanner {
+	background: #fff8f5;
+	height: 100vh;
+	display: flex;
+	color: #242120;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	
+	
+	.vendorBanner__right {
+		max-width: 50%;
+		margin-left: 0px;
+		position: relative;
+		flex: 3;
+
+		.eclipse {
+			vertical-align: middle;
+			text-align: center;
+			left: 10%;
+			position: relative;
+			margin-top: 40px;
+			width: 90%;
+		}
+
+		.lady {
+			position: absolute;
+			right: 30px;
+			bottom: 20px;
+			top: 126px;
+
+			object-fit: contain;
+			z-index: 0;
+			text-align: center;
+			width: 85%;
+		}
+	}
+	.vendorBanner__left {
+		flex: 1;
+		padding: 50px;
+		margin-left: 50px;
+		display: grid;
+		place-content: center;
+		h1 {
+			font-size: 32px;
+			font-weight: 700;
+		}
+		p {
+			font-size: 18px;
+			line-height: 150%;
+			letter-spacing: 2%;
+			font-family: "Inter", sans-serif;
+			margin-bottom: 60px;
+			margin-top: 60px;
+		}
+		button {
+			width: 20%;
+			color: #ff5c00;
+			border-color: #ff5c00;
+			font-size: 13px;
+		}
+		.link {
+			display: flex;
+			flex-direction: column;
+			a {
+				text-decoration: none;
+				color: #ff5c00;
+				text-transform: uppercase;
+				font-family: "Inter", sans-serif;
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 20%;
+			}
+			img {
+				width: 40%;
+			}
+		}
+	}
+}

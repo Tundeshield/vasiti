@@ -1,0 +1,97 @@
+.vendorBanner {
+  background: #fff8f5;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #242120;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.vendorBanner .vendorBanner__right {
+  max-width: 50%;
+  margin-left: 0px;
+  position: relative;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.vendorBanner .vendorBanner__right .eclipse {
+  vertical-align: middle;
+  text-align: center;
+  left: 10%;
+  position: relative;
+  margin-top: 40px;
+  width: 90%;
+}
+
+.vendorBanner .vendorBanner__right .lady {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  top: 126px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 0;
+  text-align: center;
+  width: 85%;
+}
+
+.vendorBanner .vendorBanner__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 50px;
+  margin-left: 50px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.vendorBanner .vendorBanner__left h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.vendorBanner .vendorBanner__left p {
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 2%;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.vendorBanner .vendorBanner__left button {
+  width: 20%;
+  color: #ff5c00;
+  border-color: #ff5c00;
+  font-size: 13px;
+}
+
+.vendorBanner .vendorBanner__left .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vendorBanner .vendorBanner__left .link a {
+  text-decoration: none;
+  color: #ff5c00;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 20%;
+}
+
+.vendorBanner .vendorBanner__left .link img {
+  width: 40%;
+}
+/*# sourceMappingURL=VendorBanner.css.map */

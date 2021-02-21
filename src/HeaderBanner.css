@@ -2,7 +2,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
   max-height: 100vh;
   padding-top: 20px;
   -webkit-box-sizing: border-box;

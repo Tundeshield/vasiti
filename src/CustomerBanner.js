@@ -4,6 +4,7 @@ import Ladies from "./ladies.png";
 import Eclipse from "./Ellipse 8.png";
 import Button from "@material-ui/core/Button";
 import Line from "./Underline.png";
+import { Link } from "react-router-dom";
 
 const CustomerBanner = () => {
 	return (
@@ -27,7 +28,7 @@ const CustomerBanner = () => {
 						definately be coming back!
 					</p>
 					<div className="link">
-						<a href="#">Share your own story!</a>
+						<Link to="/testimonial-form">Share your own story!</Link>
 						<img src={Line} alt="" />
 					</div>
 				</div>

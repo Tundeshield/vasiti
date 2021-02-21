@@ -1,10 +1,11 @@
 .customerBanner {
 	background: #222222;
 	height: 100vh;
-	margin-top: -24px;
+	
 	z-index: 1;
 	display: flex;
 	color: white;
+	border-bottom: 1px solid white;
 	.customerBanner__left {
 		max-width: 50%;
 		margin-left: 0px;
@@ -17,7 +18,7 @@
 			left: 10%;
 			position: relative;
 			margin-top: 40px;
-			width: 90%;
+			width: 84%;
 		}
 
 		.ladies {
@@ -29,6 +30,7 @@
 			object-fit: contain;
 			z-index: 0;
 			text-align: center;
+			width: 90.5%;
 		}
 	}
 	.customerBanner__right {

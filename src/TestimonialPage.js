@@ -1,9 +1,11 @@
 import React from "react";
 import CustomerBanner from "./CustomerBanner";
+import CustomerTestimonials from "./CustomerTestimonials";
 import HeaderBanner from "./HeaderBanner";
 import Subheader from "./Subheader";
-import "./TestimonialPage.css";
+import "./TestimonialPage.css"
 import Topbar from "./Topbar";
+
 
 const TestimonialPage = () => {
 	return (
@@ -12,6 +14,7 @@ const TestimonialPage = () => {
 			<Subheader />
 			<HeaderBanner />
 			<CustomerBanner />
+			<CustomerTestimonials/>
 			{/*Customer-Exp*/}
 			{/*Customer Reviews*/}
 			{/*Vendor Exp*/}

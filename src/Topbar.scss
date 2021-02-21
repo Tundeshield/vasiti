@@ -5,7 +5,6 @@
 	padding-top: 20px;
 	padding-left: 185px;
 	padding-bottom: 20px;
-	
 
 	.topbar__menu {
 		display: flex;
@@ -31,6 +30,16 @@
 			margin-right: 40px;
 			font-weight: 400;
 			font-size: 13px;
+		}
+	}
+	@media (max-width: 600px) {
+		.topbar__logo {
+			display: flex;
+			justify-content: flex-start;
+			padding-left: 10px;
+		}
+		.topbar__menu {
+			display: none;
 		}
 	}
 }

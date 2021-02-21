@@ -1,6 +1,5 @@
 .headerBanner {
 	display: flex;
-
 	max-height: 100vh;
 	padding-top: 20px;
 	box-sizing: border-box;
@@ -52,4 +51,12 @@
 			color: #494949;
 		}
 	}
+}
+
+@media (max-width: 600px) {
+	.headerBanner{
+		display: flex;
+		flex-direction: column;
+	}
+	
 }

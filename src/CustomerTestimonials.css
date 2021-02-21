@@ -23,4 +23,25 @@
   -webkit-column-gap: 5em;
           column-gap: 5em;
 }
+
+@media (max-width: 600px) {
+  .customerTestimonials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .customerTestimonial__row1 {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+  .customerTestimonial__row2 {
+    margin-top: 30px;
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+}
 /*# sourceMappingURL=CustomerTestimonials.css.map */

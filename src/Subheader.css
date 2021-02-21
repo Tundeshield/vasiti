@@ -22,4 +22,10 @@
   font-weight: 400;
   font-size: 14px;
 }
+
+@media (max-width: 600px) {
+  .subheader {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Subheader.css.map */

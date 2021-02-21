@@ -19,7 +19,7 @@ const Footer = () => {
 						happening on Vasiti—thus, the world.
 					</p>
 					<div className="footer__top__right__search">
-						<input type="text" placeholder="enter your email address"/>
+						<input type="text" placeholder="enter your email address" />
 						<Button variant="outlined">SUBSCRIBE</Button>
 					</div>
 				</div>
